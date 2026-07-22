@@ -1,8 +1,8 @@
 import random
 
-print("Set the range of numbers in which you would like to guess:)
+print("Set the range of numbers in which you would like to guess:")
 number = int(input())
-random_number = random.randint(1, range_num)
+random_number = random.randint(1, number)
 
 print("Now, guess the number between 1 and", number)
 guess = 0
